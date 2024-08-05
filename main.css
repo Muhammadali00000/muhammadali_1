@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    border: 1px rgb(183, 183, 183) solid;
+}
+.nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+.nav_link{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_link a{
+    text-decoration: none;
+    color: black;
+}
+.nav_link a:hover{
+    color: #333333;
+}
+.nav_burger{
+    display: none;
+}
+
+body{
+    
+    font-family: "Unbounded", sans-serif !important;
+
+}
+
+
+@media (max-width: 1024px) {
+    .nav_link{
+        display: none;
+    }
+    .nav_contact{
+        display: none;
+    }
+    .nav_logo{
+        font-size: 20px;
+    }
+    .nav_burger{
+        display: block;
+        width: 30px;
+    }
+}
+
+
+
+
+.header{
+    display: flex;
+    gap: 20px;
+    margin: 75px;
+}
+.header_text{
+    font-size: 50px;
+    margin: 70px;
+    color: #333333;
+}
+.header_btn{
+    width: 140px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+.header_img2{
+    width: 10px; 
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .header_text{
+        font-size: 40px;
+    }
+    .header h5{
+        font-size: 20px;
+    }
+    .header_btn{
+        background-color: #333333;
+        color: white;
+    }
+}
+
+
+
+.main{
+    width: 100%;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+    
+}
+
+.toyota_card{
+    background: url(img/Rectangle\ 12\ \(3\).png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_card_2{
+    background: url(img/Rectangle\ 13\ \(1\).png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_card_3{
+    background: url(img/Rectangle\ 12\ \(4\).png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_card_4{
+    background: url(img/Rectangle\ 13\ \(2\).png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_card_5{
+    background: url(img/Rectangle\ 12\ \(5\).png) no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_card_6{
+    background: url(img/7016c2ede1e3fc3b358792263629dc44\ 1\ \(2\).png) no-repeat center center #3A3B35;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+}
+.toyota_h2{
+    color: white;
+}
+.name_toyota{
+    color: white;
+}
+.rent_btn{
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+}
+.btn_miles{
+    border: 1px black solid;
+	background: transparent;
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+.grid-card{
+    padding: 50px;
+}
+
+
+
+
+.main_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:80px;
+    margin-top: 100px;
+}
+.main_text h1{
+    font-size:70px;
+}
+.card_circle{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+.card_circle1{
+    border: 1px gray solid;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 145px;
+    color: #333333;
+}
+.card_circle2{
+    border: 1px gray solid;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 120px;
+    color: #333333;
+}
+.card_circle3{
+    border: 1px gray solid;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 130px;
+    color: #333333;
+}
+.card_circle1 h1{
+    font-size: 100px;
+}
+.card_circle2 h1{
+    font-size: 100px;
+}
+.card_circle3 h1{
+    font-size: 100px;
+}
+.main_img1{
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+.main_img{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+.main_text1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+.main_text1 h1{
+    font-size: 80px;
+}
+.main_text1 button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+    border: 1px black solid;
+    background-color: white;
+}
+.img{
+    display: flex;
+   justify-content: space-between;
+    gap: 50px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img img{
+    width: 100%;
+}
+.main_text3{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    margin-top: 100px;
+}
+.main_text33 h1{
+    font-size: 90px;
+}
+.main_text33 button{
+    width: 200px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 50px;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    gap: 124px;
+}
+.text2{
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    margin-top: 10px;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    gap: 156px;
+    margin-top: 10px;
+}
+.text4{
+    display: flex;
+    align-items: center;
+    gap: 102px;
+    margin-top: 10px;
+}
+.text5{
+    display: flex;
+    align-items: center;
+    gap: 163px;
+    margin-top: 10px;
+}
+.text_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 70px;
+}
+.text_1 h1{
+    font-size: 90px;
+}
+.text_1 b{
+    font-size: 10px;
+    color: gray;
+}
+.text_1 button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: white;
+}
+.main_map{
+    width: 1400px;
+    height: 600px;
+}
+.main_map1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.img-none{
+    display: none;
+    width: 100%;
+}
+
+
+@media (max-width: 1280px) {
+    .main{
+        display: grid;
+      grid-template-columns: 1fr;
+    }
+    .toyota_card{
+        background: none;
+    }
+    .toyota_card_2{
+        background: none;
+    }
+    .toyota_card_3{
+        background: none;
+    }
+    .toyota_card_4{
+        background: none;
+    }
+    .toyota_card_5{
+        background: none;
+    }
+    .toyota_card_6{
+        background: none;
+    }
+    .img-none{
+        display: block;
+        width: 100%;
+    }
+    .toyota_h2{
+        color: black;
+    }
+    .name_toyota{
+        color: black;
+    }
+    .btn_miles{
+        color: black;
+    }
+    
+
+    .main_text{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_circle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card_circle2 h1{
+        margin-left: -50px;
+    }
+    .card_circle3 h1{
+        margin-left: -50px;
+    }
+    .main_img{
+        width: 450px;
+        margin-top: 50px;
+    }
+    .main_text1{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main_text1 button{
+        background-color: #333333;
+        color: white;
+    }
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main_text3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+     .main_text3 h4{
+        font-size: 20px;
+     }
+     .main_text33 button{
+        background-color: #333333;
+        color: white;
+        display: flex;
+     }
+     .text_1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+     }
+     .text_1 h1{
+        font-size: 70px;
+        color: #333333;
+     }
+     .text_1 h3{
+        font-size: 30px;
+        color: #333333;
+     }
+     .text_1 b{
+        font-size: 20px;
+     }
+     .text_1 button{
+        background-color: #333333;
+        color: white;
+        width: 300px;
+     }
+     .main_text4{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     .main_map{
+
+        width: 400px;
+        height: 250px;
+     }
+     .main_map1{
+        display: flex;
+        justify-content: center;
+     }
+ }
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    border: 1px #c8c8c8 solid;
+    padding: 50px;
+}
+.ul{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
